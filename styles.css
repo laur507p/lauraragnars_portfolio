@@ -1,0 +1,68 @@
+/*------------ GENERALLE INDSTILLINGER------------------*/
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+/*------------------ BACKGROUND TEXT ----------------------*/
+
+#text_bottom {
+    background-image: url(svg/texti_top2.svg);
+    bottom: -2vw;
+    left: 0;
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 4.94vw;
+    z-index: -1000;
+    filter: invert(100%);
+}
+
+#text_top {
+    background-image: url(svg/texti_top2.svg);
+    top: -1vw;
+    left: 0;
+    width: 100vw;
+    height: 4.94vw;
+    background-size: cover;
+    position: fixed;
+    z-index: -1000;
+    filter: invert(100%);
+}
+
+#text_left {
+    background-image: url(svg/texi_left.svg);
+    left: -1vw;
+    top: 0;
+    height: 97.00363636363637vw;
+    width: 4.94vw;
+    background-size: cover;
+    position: fixed;
+    z-index: -1000;
+    filter: invert(100%);
+}
+
+#text_right {
+    background-image: url(svg/texti_right.svg);
+    right: -1vw;
+    top: 0;
+    height: 97.00363636363637vw;
+    width: 4.94vw;
+    background-size: cover;
+    position: fixed;
+    z-index: -1000;
+    filter: invert(100%);
+}
