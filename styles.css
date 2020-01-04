@@ -16,6 +16,57 @@ body {
     background-color: black;
 }
 
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw 20vw 5vw 20vw;
+}
+
+.text {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.image {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+h1 {
+    font-family: helvetica;
+    color: white;
+    font-weight: 200;
+}
+
+img {
+    width: 100%;
+}
+
+/*----------------- NAV ------------------------------*/
+
+nav {
+    text-align: center;
+    margin: 30px 0 0 30px;
+}
+
+nav a {
+    color: white;
+    font-size: 3rem;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-weight: 200;
+    display: block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: white;
+}
+
 
 /*------------------ BACKGROUND TEXT ----------------------*/
 
@@ -44,10 +95,10 @@ body {
 }
 
 #text_left {
-    background-image: url(svg/texi_left.svg);
+    background-image: url(svg/texi_left_lengri.svg);
     left: -1vw;
     top: 0;
-    height: 97.00363636363637vw;
+    height: 224.5454545454546vw;
     width: 4.94vw;
     background-size: cover;
     position: fixed;
@@ -56,10 +107,10 @@ body {
 }
 
 #text_right {
-    background-image: url(svg/texti_right.svg);
+    background-image: url(svg/texti_right_lengri.svg);
     right: -1vw;
     top: 0;
-    height: 97.00363636363637vw;
+    height: 224.5454545454546vw;
     width: 4.94vw;
     background-size: cover;
     position: fixed;
