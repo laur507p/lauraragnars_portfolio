@@ -131,6 +131,7 @@ nav a:visited {
     font-family: helvetica;
     font-weight: 400;
     text-transform: uppercase;
+    border: 1px solid white;
 }
 
 .knap a:visited {
@@ -139,14 +140,18 @@ nav a:visited {
 
 .knap a:hover {
     text-decoration: underline;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
 
 .knap {
-    margin: 20px 0 20px 0;
+    margin: 20px 0 30px 0;
 }
 
 .text p {
     color: white;
     font-family: helvetica;
     font-weight: 200;
+    padding: 0 0 10px 0;
 }
