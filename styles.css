@@ -43,6 +43,22 @@ img {
     width: 100%;
 }
 
+#nafnahringur {
+    background-image: url(svg/nafnahringur.svg);
+    height: 150vw;
+    width: 150vw;
+    background-size: cover;
+    position: absolute;
+    top: -80vw;
+    right: -100vw;
+    filter: invert(100%);
+}
+
+#nafnahringur_container {
+    overflow: hidden;
+    width: 100vw;
+}
+
 /*----------------- NAV og HEADER ------------------------------*/
 
 nav {
@@ -120,6 +136,10 @@ nav a:visited {
     filter: invert(100%);
 }
 
+#bakgrunnstexti {
+    display: none;
+}
+
 /*---------------------- INHOLD ------------------------*/
 
 .knap a {
@@ -154,4 +174,23 @@ nav a:visited {
     font-family: helvetica;
     font-weight: 200;
     padding: 0 0 10px 0;
+}
+
+/*-----------------------  ANIMATIONER -------------------*/
+
+.rotate {
+    animation-name: rotate_kf;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate_kf {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
