@@ -25,11 +25,13 @@ body {
 .text {
     flex-basis: 300px;
     flex-grow: 1;
+    padding: 10px;
 }
 
 .image {
     flex-basis: 300px;
     flex-grow: 1;
+    padding: 10px;
 }
 
 h1 {
@@ -58,15 +60,12 @@ img {
     width: 150vw;
     background-size: cover;
     position: absolute;
-    top: -80vw;
-    right: -100vw;
+    top: 15vw;
+    left: -80vw;
     filter: invert(100%);
+    pointer-events: none;
 }
 
-#nafnahringur_container {
-    overflow: hidden;
-    width: 100vw;
-}
 
 footer {
     text-align: center;
@@ -75,14 +74,23 @@ footer {
     font-weight: 100;
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.spacer {
+    height: 200px;
+}
+
 /*----------------- NAV og HEADER ------------------------------*/
 
 nav {
     text-align: left;
     margin: 0px 0 0 0;
-    position: relative;
+    position: fixed;
     top: 5px;
     left: 10px;
+
 
 }
 
@@ -102,6 +110,13 @@ nav a:hover {
 
 nav a:visited {
     color: white;
+}
+
+#nav2 {
+    text-align: right;
+    position: relative;
+    top: 5px;
+    right: 5px;
 }
 
 
@@ -160,7 +175,7 @@ nav a:visited {
     display: none;
 }
 
-/*---------------------- INHOLD ------------------------*/
+/*---------------------- PORFTOLIO ------------------------*/
 
 .knap a {
     text-align: center;
@@ -196,12 +211,42 @@ nav a:visited {
     padding: 0 0 10px 0;
 }
 
+h2 {
+    color: white;
+    font-family: helvetica;
+    font-weight: 100;
+}
+
+.imageflex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imageflex img {
+    width: 30%;
+    padding: 0 15px 0 15px;
+
+}
+
+.sectionheader {
+    margin-left: 12vw;
+    padding: 50px 10px 10px 10px;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+
+}
+
+#inhold section {}
+
 /*-------------------------- OM MIG -----------------------------*/
 
 #ommig h1 {
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 100;
+    /*    font-family: big-caslon-fb,
+ serif;*/
 }
 
 #ommig p {
