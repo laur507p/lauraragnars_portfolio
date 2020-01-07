@@ -39,6 +39,15 @@ h1 {
     font-size: 2rem;
 }
 
+.title {
+    text-align: right;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    margin: 0;
+    font-size: 3rem;
+}
+
 img {
     width: 100%;
 }
@@ -59,14 +68,22 @@ img {
     width: 100vw;
 }
 
+footer {
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+    font-weight: 100;
+}
+
 /*----------------- NAV og HEADER ------------------------------*/
 
 nav {
     text-align: left;
     margin: 0px 0 0 0;
     position: relative;
-    top: 10px;
+    top: 5px;
     left: 10px;
+
 }
 
 nav a {
@@ -178,6 +195,41 @@ nav a:visited {
     font-weight: 200;
     padding: 0 0 10px 0;
 }
+
+/*-------------------------- OM MIG -----------------------------*/
+
+#ommig h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#ommig p {
+    font-size: 1.2rem;
+}
+
+
+#ommig .text {
+    margin-top: 50px;
+}
+
+#ommig .text {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+#ommig .image {
+    flex-basis: 350px;
+    flex-grow: 2;
+}
+
+#ommig .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw 10vw 5vw 14vw;
+}
+
+
 
 /*-----------------------  ANIMATIONER -------------------*/
 
