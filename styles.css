@@ -48,6 +48,8 @@ h1 {
     right: 5px;
     margin: 0;
     font-size: 3rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
 }
 
 img {
@@ -410,5 +412,10 @@ h2 {
 
     #nav2 a {
         display: inline;
+    }
+
+    .title {
+        writing-mode: horizontal-tb;
+
     }
 }
